@@ -3,17 +3,17 @@
  function clickHandler(){
 
 
-  	var urlField = document.querySelector('url');
-
+  	var urlField = document.getElementById('url');
+  	var url = null;
   	if(urlField!=null){
-  		url = urlField.value;
+  		 url = urlField.value;
   	}
   	else{
   		alert("Empty url field!");
   		console.log("Empty url field!");
 
   	}
-    	
+    console.log("url :"+url);
     GitZip.zipRepo(url);
   }
   	
