@@ -1,0 +1,6 @@
+{
+  "name": "GHSDD : Github Sub- Directory Downloader",
+  "tagline": "A chrome extension to download any sub-directory or file from a Github repo .",
+  "body": "# GHSDD\r\nA chrome extension to download any sub-directory or file from a Github repo .\r\n\r\n## Problem \r\n\r\nMany a times you only want to download a subdirectory of a repo , for example when looking for a library you just want \r\ndownload the sample given along with it and not the whole repo , currently github's ui only provides downloading individual \r\nfile or entire repo as zip and not subdirectory , this extension solves this problem, just paste sub-directory's github url \r\nit downloads(not clone) that for you .\r\n\r\n## Usage \r\n1. Download [zip] (https://github.com/charany1/GHSDD/archive/master.zip)\r\n2. Unzip it.\r\n3. Go to **chrome://extensions** in your browser. \r\n4. Check **Developer Mode**.\r\n4. Click on **Load Unpacked Extensions** and select directory containing unzipped files.\r\n5. You should see GHSDD in your extensions page and among extensions in top pannel.\r\n6. Test : Paste https://github.com/facebook/stetho/tree/master/stetho-sample in popup and get zip.\r\n\r\n## Credits\r\n\r\nIt is based on [KinoLien's gitzip](https://github.com/KinoLien/gitzip).\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
