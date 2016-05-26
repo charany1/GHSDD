@@ -11,7 +11,8 @@ it downloads(not clone) that for you .
 ## Usage 
 1. Download [zip] (https://github.com/charany1/GHSDD/archive/master.zip)
 2. Unzip it.
-3. Go to **chrome://extensions** in your browser.         
+3. Go to **chrome://extensions** in your browser. 
+4. Check **Developer Mode**.
 4. Click on **Load Unpacked Extensions** and select directory containing unzipped files.
 5. You should see GHSDD in your extensions page and among extensions in top pannel.
 6. Test : Paste https://github.com/facebook/stetho/tree/master/stetho-sample in popup and get zip.
